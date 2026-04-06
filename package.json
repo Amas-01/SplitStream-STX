@@ -14,6 +14,12 @@
     "prettier": "^3.2.5",
     "turbo": "^1.13.0"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
