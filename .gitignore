@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+out/
+.turbo/
+.eslintcache
+.stylelintcache
+*.log
+
+# Environment
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Clarinet
+contracts/splitstream-contracts/target/
+contracts/splitstream-contracts/.vscode/
+contracts/splitstream-contracts/package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
