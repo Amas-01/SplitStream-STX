@@ -5,9 +5,17 @@ authors = []
 telemetry = false
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.split-core]
+path = "contracts/split-core.clar"
+epoch = "2.5"
+
+[contracts.batch-payout]
+path = "contracts/batch-payout.clar"
+epoch = "2.5"
+
+[contracts.credit-badge]
+path = "contracts/credit-badge.clar"
+epoch = "2.5"
 
 [repl.analysis]
 passes = ["check_checker"]
