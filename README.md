@@ -26,7 +26,9 @@ Traditional revenue splitting is often opaque, manual, and prone to accounting e
 - [x] Contracts workspace initialized (Clarinet).
 - [x] Backend workspace scaffold with Express and TS.
 - [x] Frontend workspace scaffold with Vite and React.
-- [/] Cron Infrastructure & On-chain batch signal logic (Upcoming).
+- [x] Initial contract skeletons: `split-core`, `batch-payout`, `credit-badge`.
+- [x] Vitest test setup with `@stacks/clarinet-sdk`.
+- [ ] Cron Infrastructure & On-chain batch signal logic (Upcoming).
 
 ---
 *For more detailed protocols, see [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md).*
